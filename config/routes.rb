@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get 'tweets/index'
-  get 'tweets/new'
-  get 'tweets/show'
-  get 'tweets/edit'
+  resources :tweets do
+    resource :like
+    resource :retweet
+  end
 
 
   root to: "tweets#index"
