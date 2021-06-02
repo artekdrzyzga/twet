@@ -1,0 +1,15 @@
+current directory: /Users/arturdrzyzga/twit/vendor/bundle/gems/websocket-driver-0.7.4/ext/websocket-driver
+/Users/arturdrzyzga/.rbenv/versions/2.6.3/bin/ruby -I /Users/arturdrzyzga/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20210602-10240-tbhdoh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/arturdrzyzga/twit/vendor/bundle/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/arturdrzyzga/twit/vendor/bundle/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/arturdrzyzga/twit/vendor/bundle/gems/websocket-driver-0.7.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20210602-10240-exsgxx
